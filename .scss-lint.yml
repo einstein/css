@@ -1,33 +1,5 @@
 severity: error
 
 linters:
-
-  BorderZero:
-    enabled: true
-    convention: zero
-
-  DeclarationOrder:
-    enabled: false
-
-  ExtendDirective:
-    enabled: true
-
-  LeadingZero:
-    enabled: false
-
-  NameFormat:
-    enabled: true
-
-  PrivateNamingConvention:
-    enabled: true
-    prefix: _
-
   PropertySortOrder:
     order: smacss
-
-  QualifyingElement:
-    enabled: false
-
-  SingleLinePerProperty:
-    enabled: true
-    allow_single_line_rule_sets: false
